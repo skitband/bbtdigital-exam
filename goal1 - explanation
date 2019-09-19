@@ -1,0 +1,8 @@
+The process start with the agent, the agent process the quotaion with client information and type of insurace availing.
+Information will submit through a third party API (ANDO).
+The APi accept the information that was sent by the agent.
+Validation happens.
+If the process is success the API return the expected premium. Else will return error information to the user frontend
+The system accept the premium.
+The agent will continue the process up to Payments.
+End.
