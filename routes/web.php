@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/add-customer', function () {
+    return view('add_customer');
+})->name('add.customer');
+
+
+Route::get('/get-premium', function () {
+    return view('get_premium');
+})->name('get.premium');
